@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class Grid_setup {
 	public static RemoteWebDriver driver;
-
+        public static WebDriver driver;
 	@Test
 	public static void test() throws MalformedURLException, InterruptedException {
 
